@@ -1,4 +1,4 @@
->**Info**: The latest Xsolla Launcher version is 2.5.0. If your Xsolla Launcher version is earlier than 2.0.0, please read [Wiki](https://github.com/xsolla/xsolla-launcher-build/wiki/New-version-of-Xsolla-Launcher-(v2.0.0)) to get updates.
+>**Info**: The latest Xsolla Launcher version is 2.10.1. If your Xsolla Launcher version is earlier than 2.0.0, please read [Wiki](https://github.com/xsolla/xsolla-launcher-build/wiki/New-version-of-Xsolla-Launcher-(v2.0.0)) to get updates.
 
 [Documentation](https://developers.xsolla.com/doc/launcher) is for full Launcher integration.
 
@@ -104,6 +104,7 @@ default_p2p_enabled | Whether to use P2P or CDN game delivery. Can be ‘true’
 restore_password_link | A URL to reset a password. The link opens in a browser. By default it leads to the Xsolla Login password reset page. If the field is empty (или the value is not stated), the link will be hidden from the authorization page.
 oauth_enabled | Whether to use the OAuth 2.0 authentication. Can be ‘true’ or ‘false’. By default, the parameter is ‘false’ and the OAuth 2.0 authentication is not enabled. If this parameter is missing or has an invalid value, launcher will authenticate users without the OAuth 2.0 protocol.
 oauth_client_id | Client ID in the Login project. Contact your Account Manager to get your client ID. If this parameter is missing or has an invalid value, launcher will authenticate users without the OAuth 2.0 protocol.
+multiple_instances_game_on_same_account_enabled | Whether to allow users to simultaneously launch the game on different devices using one account. Can be ‘true’ and ‘false’. Default is ‘false’.
 
 <details><summary>Example</summary>
 
